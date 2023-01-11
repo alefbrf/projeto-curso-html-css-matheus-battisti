@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Finder</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <a href="./index.html">
+                        <img src="./imgs/logo.png" alt="Job Finder" class="logo">
+                    </a>
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li><a href="./findjobs.html">Encontrar Vaga</a></li>
+                        <li><a href="./sendjobs.html">Enviar Vaga</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-banner">
+                <div class="search-form">
+                    <h1>Encontre seu emprego</h1>
+                    <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos sonhos.</p>
+                    <form>
+                        <input type="text" name="job" placeholder="Digite o cargo">
+                        <select name="regiao">
+                            <option value="todos-estados">Todos Estados</option>
+                        </select>
+                        <select name="categoria">
+                            <option value="todas-categorias">Categorias</option>
+                        </select>
+                        <input type="submit" value="Pesquisar">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main class="lastjobs-container wrapper">
+            <h1>Últimas vagas enviadas</h1>
+            <ul>
+                <li>
+                    <a href="./job.html" class="click-area">
+                        <div class="company-box">
+                            <img src="./imgs/googlelogo.png" alt="google-logo">
+                            <div class="company-info">
+                                <h3>Developer</h3>
+                                <p>Google</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Mountain View, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="clt">CLT</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./job.html" class="click-area">
+                        <div class="company-box">
+                            <img src="./imgs/ibmlogo.png" alt="ibm-logo">
+                            <div class="company-info">
+                                <h3>DBA</h3>
+                                <p>IBM</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Armonk, New York</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="pj">PJ</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./job.html" class="click-area">
+                        <div class="company-box">
+                            <img src="./imgs/linkedinlogo.png" alt="linkedin-logo">
+                            <div class="company-info">
+                                <h3>Front End Developer</h3>
+                                <p>Linkedin</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Sunnyvale, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="home-office">Home Office</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./job.html" class="click-area">
+                        <div class="company-box">
+                            <img src="./imgs/facebooklogo.png" alt="facebook-logo">
+                            <div class="company-info">
+                                <h3>Full Stack Developer</h3>
+                                <p>Facebook</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Menlo Park, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="pj">PJ</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="btnjobs-container">
+                <a href="#" class="btn-jobs">Ver mais</a>
+            </div>
+        </main>
+        <section class="sendjobs-container">
+            <div class="sendjobs-inner wrapper">
+                <h2>Envie uma vaga que será vista por milhares de candidatos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="light-btn">Enviar Vaga</a>
+            </div>
+        </section>
+        <section class="status-container wrapper">
+            <h2 class="title-center">Estatísticas do JobFinder</h2>
+            <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div>
+                <div class="status-box">
+                    <span class="status-quantidade">150</span>
+                    <p class="status-text">Vagas abertas</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-quantidade">150</span>
+                    <p class="status-text">Candidatos Contratados</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-quantidade">50</span>
+                    <p class="status-text">Empresas participantes</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-quantidade">550</span>
+                    <p class="status-text">Candidatos</p>
+                </div>
+            </div>
+        </section>
+        <section class="testmony-container">
+            <div class="wrapper">
+                <h2>Veja o que os canditados dizem</h2>
+                <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="./imgs/avatar1.png" alt="avatar1">
+                    <p class="testmony-name">João</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="./imgs/avatar2.png" alt="avatar1">
+                    <p class="testmony-name">Maria</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="./imgs/avatar3.png" alt="avatar1">
+                    <p class="testmony-name">Pedro</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="./imgs/avatar4.png" alt="avatar1">
+                    <p class="testmony-name">Aléxia</p>
+                </div>
+            </div>
+        </section>
+        <section class="blog-container wrapper">
+            <h2 class="title-center">Últimos artigos do nosso blog</h2>
+            <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="article-box">
+                <img src="./imgs/blog1.jpg" alt="blog1">
+                <h4><a href="#">Article title</a></h4>
+                <p class="article-date">05 de Fevereiro de 2019 | 10 comentários</p>
+                <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn light-btn">Ler post</a>
+            </div>
+            <div class="article-box">
+                <img src="./imgs/blog2.jpg" alt="blog1">
+                <h4><a href="#">Article title</a></h4>
+                <p class="article-date">04 de Fevereiro de 2019 | 10 comentários</p>
+                <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn light-btn">Ler post</a>
+            </div>
+            <div class="article-box">
+                <img src="./imgs/blog3.jpg" alt="blog1">
+                <h4><a href="#">Article title</a></h4>
+                <p class="article-date">03 de Fevereiro de 2019 | 10 comentários</p>
+                <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn light-btn">Ler post</a>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="./imgs/logo.png" alt="logo">
+                        <h2>JobFinder</h2>
+                        <p>A maneira mais fácil de encontrar seu próximo emprego.</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="articles-footer">
+                        <ul class="footer-list footer-article-list">
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">05 Fevereiro de 2019</span>
+                            </li>
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">04 Fevereiro de 2019</span>
+                            </li>
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">03 Fevereiro de 2019</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Nos encontre nas redes sociais</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                                <span>Linkedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>Alef Bryan - 2023</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
